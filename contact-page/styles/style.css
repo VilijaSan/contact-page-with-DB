@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+}
+
+.reservation-container h1::after, #address-container h2::after {
+	content: "";
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    background-color: #000040;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.reservation-container h1, #address-container h2 {
+	text-align: center;
+	position: relative;
+	padding-bottom: 0.95rem;
+	margin-bottom: 1.9rem !important;
+	color: #000000;
+	font-size: 3rem;
+}
+
+.inputs-select {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.inputs-select .picker-field, .inputs-select .select-field { 
+	width: 30% !important;
+}
+
+.datepicker-controls .select-month input {
+    /* width: 70px; */
+    width: 80px !important;
+}
+
+.send-button.col.s12 {
+	text-align: center;
+}
+
+.inputs-area {
+	display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.textarea textarea {
+	height: 100%;
+	border: none !important;
+}
+
+.textarea textarea:focus {
+	outline-style: none;
+}
+
+.reservation-form-container {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.address-map-container.row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.map {
+	width: 100%;
+}
+
+.inputs {
+	width: 44%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.reservation-form input::placeholder, textarea::placeholder {
+	opacity: 1; 
+	color: black;
+}
+
+#address-container {
+	padding-bottom: 2.5rem;
+}
+
+blockquote {
+    border-left: 5px solid #EF9A9A !important;
+}
+
+.datepicker-date-display {
+	background-color: #EF9A9A !important;
+}
+
+.datepicker-cancel, .datepicker-done {
+    color: #EF9A9A !important;
+}
+
+.datepicker-table td.is-selected {
+    background-color: #EF9A9A !important;
+    color: #fff;
+}
+
+.is-today {
+	color: #EF9A9A !important;
+}
+
+.timepicker-digital-display {
+	background-color: #EF9A9A !important;
+}
+
+.timepicker-close {
+    color: #EF9A9A !important;
+}
+
+.timepicker-canvas line {
+    stroke: #EF9A9A !important;
+}
+
+.timepicker-canvas-bg, .timepicker-canvas-bearing {
+    fill: #EF9A9A !important;
+}
+
+.timepicker-tick.active, .timepicker-tick:hover {
+    background-color: #EF9A9A !important;
+    opacity: 0.25;
+}
+
+.dropdown-content li>span {
+    color: #EF9A9A !important;
+}
+
+#vardas:focus, #email:focus, #telefonas:focus, #datepicker:focus, #timepicker:focus, .select-dropdown:focus {
+	border-bottom: 1px solid #EF9A9A !important;
+	box-shadow: 0 1px 0 0 #EF9A9A !important;
+}
