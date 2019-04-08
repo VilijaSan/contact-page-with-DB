@@ -2,10 +2,10 @@
 
 	error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
-	$servername = "sql7.freesqldatabase.com";
-	$username = "sql7287132";
-	$password = "nHpWrDVPu6";
-	$dbname = "sql7287132";
+	$servername = "xxx";
+	$username = "xxx";
+	$password = "xxx";
+	$dbname = "xxx";
 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
